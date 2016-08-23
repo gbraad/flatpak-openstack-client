@@ -13,7 +13,7 @@ Instructions
 Install on Fedora 24:
 ```
 $ sudo dnf install -y git wget flatpak flatpak-builder
-$ wget https://sdk.gnome.org/keys/gnome-sdk.gpg dest=/tmp/gnome-sdk.gpg
+$ wget https://sdk.gnome.org/keys/gnome-sdk.gpg -o /tmp/gnome-sdk.gpg
 $ flatpak remote-add --gpg-import=/tmp/gnome-sdk.gpg gnome https://sdk.gnome.org/repo/
 $ flatpak remote-add --gpg-import=/tmp/gnome-sdk.gpg gnome-apps https://sdk.gnome.org/repo-apps/
 $ flatpak install gnome org.gnome.Platform 3.20
