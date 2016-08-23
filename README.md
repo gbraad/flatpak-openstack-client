@@ -18,6 +18,7 @@ $ flatpak remote-add --gpg-import=/tmp/gnome-sdk.gpg gnome https://sdk.gnome.org
 $ flatpak remote-add --gpg-import=/tmp/gnome-sdk.gpg gnome-apps https://sdk.gnome.org/repo-apps/
 $ flatpak install gnome org.gnome.Platform 3.20
 $ flatpak install gnome org.gnome.Sdk 3.20
+$ ./build.sh
 ```
 
 Or use the Docker container
