@@ -1,7 +1,7 @@
 Flatpak - OpenStack client
 ==========================
 
-Just a test
+Just a test, **NOT WORKING**
 
 
 Instructions
@@ -23,6 +23,7 @@ $ flatpak install gnome org.gnome.Sdk 3.20
 Or use the Docker container
 ```
 $ docker run -it --rm -v $PWD:/workspace registry.gitlab.com/gbraad/flatpak-builder-gnome bash
+[root@655f34f18fb5 workspace]# ./build.sh
 ```
 
 
